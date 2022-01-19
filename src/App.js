@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
 
-  const characters = [
+  const player = [
     {
         title: 'lucy',
         keys:'15,30',
