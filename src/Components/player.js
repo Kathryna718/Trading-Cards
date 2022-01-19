@@ -9,8 +9,8 @@ import Typography from '@mui/material/Typography';
 
 
 
-function Characters({
-    player,
+function player({
+    characters,
     title,
     outfit_change,
     keys,
@@ -46,19 +46,19 @@ function Characters({
                     {hoverboard}
                 </p>
                 <ol>
-                    {player.map(
-                        (characters)=> {
-                            return <li key={player}>{player}</li>;
+                    {characters.map(
+                        (character)=> {
+                            return <li key={character}>{character}</li>;
                         }
                     )}
                 </ol>
                 <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          Subway Surfer
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Lucy is a girl whose looks are styled like goth or steam.
-         She can be unlocked by purchasing her with 7,000 coins.
-         She is also the cheapest character to buy with Coins. 
+        SubSubway Surfers is an endless runner game. As the hooligans run,
+         they grab gold coins out of the air while simultaneously dodging collisions with railway. 
+        The goal is to as far as you can, do not be caught by the police. 
         </Typography>
             </CardContent>
             <CardActions>
@@ -72,4 +72,4 @@ function Characters({
 
 }
 
-export default Characters;
+export default player;

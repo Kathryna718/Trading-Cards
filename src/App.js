@@ -1,4 +1,4 @@
-import Characters from './components/Characters';
+import player from './Components/player';
 import Grid from '@mui/material/Grid';
 
 
@@ -15,7 +15,9 @@ function App() {
         outfit:'goth,steam',
         board:'starboard,teleporter',
         coins:'7,000',
-        character: [
+        image:'https://static.wikia.nocookie.net/subwaysurf/images/d/d9/20210318_125137.jpg/revision/latest/scale-to-width-down/250?cb=20210318155216',
+        alt_text:'punk',
+        characters:[
           'Lucy is the cheapest buyable character in the game.',
           'she can be unlocked by purchasing her with 7,000 coins.',
 
@@ -29,6 +31,8 @@ function App() {
       outfit:'blacksuit,blackshoes,bunnymask',
       board:'skullfire,greatwhite',
       coins: '40,000',
+      image:'https://static.wikia.nocookie.net/sexypedia/images/d/da/Frank.jpg/revision/latest?cb=20200903203947',
+      alt_text:'villian',
       characters: [
         'Frank is equipped with a black briefcase.',
         'Frank wears a bunny mask which covers his entire face.',
@@ -41,6 +45,8 @@ function App() {
       outfit:'cheer,gym',
       board:'sunset,freestyler',
       coins:'30,000',
+      image:'https://vignette.wikia.nocookie.net/subwaysurf/images/4/45/Tasha.png/revision/latest?cb=20130202025554',
+      alt_text:'cheerleader',
       characters: [
         'Tasha is a character that can be unlocked by purchasing 30,000 coins.',
         'In her Cheer outfit, her hair now changed to pigtail style',
