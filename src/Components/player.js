@@ -7,9 +7,7 @@ import Typography from '@mui/material/Typography';
 
 
 
-
-
-function player({
+function Player({
     characters,
     title,
     outfit_change,
@@ -72,4 +70,4 @@ function player({
 
 }
 
-export default player;
+export default Player;

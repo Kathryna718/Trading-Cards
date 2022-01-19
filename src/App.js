@@ -1,4 +1,4 @@
-import player from './Components/player';
+import Player from './Components/Player';
 import Grid from '@mui/material/Grid';
 
 
@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
 
-  const player = [
+  const players = [
     {
         title: 'lucy',
         keys:'15,30',
@@ -16,7 +16,7 @@ function App() {
         board:'starboard,teleporter',
         coins:'7,000',
         image:'https://static.wikia.nocookie.net/subwaysurf/images/d/d9/20210318_125137.jpg/revision/latest/scale-to-width-down/250?cb=20210318155216',
-        alt_text:'punk',
+        alt_text:'punk girl',
         characters:[
           'Lucy is the cheapest buyable character in the game.',
           'she can be unlocked by purchasing her with 7,000 coins.',
@@ -60,10 +60,12 @@ function App() {
     <Grid container spacing={2}>
         
         {
-      player.map((player) => {
+      players.map((player) => {
           return <Grid item xs={4}>
-        <player
+        <Player
+            characters={player.characters}
             title={player.title}
+            keys={player.keys}
             outfit={player.outfit}
             board={player.board}
             coins={player.coins}
