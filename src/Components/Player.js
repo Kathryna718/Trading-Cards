@@ -22,7 +22,7 @@ function Player({
     return (
         <Card>
             <CardMedia
-        Component='img'
+        component='img'
         height='140'
         image={image}
         alt={alt_text}
