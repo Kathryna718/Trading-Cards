@@ -12,8 +12,8 @@ function App() {
     {
       title: 'lucy',
       keys: '15,30',
-      outfit: 'goth,steam',
-      board: 'starboard,teleporter',
+      outfit: 'goth or steam',
+      board: 'starboard or teleporter',
       coins: '7,000',
       image: lucy_image,
       alt_text: 'punk girl',
@@ -28,8 +28,8 @@ function App() {
     {
       title: 'Frank',
       keys: '20',
-      outfit: 'blacksuit,blackshoes,bunnymask',
-      board: 'skullfire,greatwhite',
+      outfit: 'blacksuit and bunnymask',
+      board: 'skullfire or greatwhite',
       coins: '40,000',
       image: 'https://static.wikia.nocookie.net/sexypedia/images/d/da/Frank.jpg/revision/latest?cb=20200903203947',
       alt_text: 'villian',
@@ -42,8 +42,8 @@ function App() {
     {
       title: 'Tasha',
       keys: '15,30',
-      outfit: 'cheer, gym',
-      board: 'sunset,freestyler',
+      outfit: 'cheer or  gym',
+      board: 'sunset or freestyler',
       coins: '30,000',
       image: 'https://vignette.wikia.nocookie.net/subwaysurf/images/4/45/Tasha.png/revision/latest?cb=20130202025554',
       alt_text: 'cheerleader',
