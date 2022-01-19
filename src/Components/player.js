@@ -10,16 +10,16 @@ import Typography from '@mui/material/Typography';
 function Player({
     characters,
     title,
-    outfit_change,
+    outfit,
     keys,
     coins,
-    hoverboard,
+    board,
     alt_text,
     image
 }){
 
 
-    return(
+    return (
         <Card>
             <CardMedia
         Component='img'
@@ -32,7 +32,7 @@ function Player({
                     {title}
                 </h4>
                 <p>
-                    {outfit_change}
+                    {outfit}
                 </p>
                 <p>
                     {keys}
@@ -41,7 +41,7 @@ function Player({
                     {coins}
                 </p>
                 <p>
-                    {hoverboard}
+                    {board}
                 </p>
                 <ol>
                     {characters.map(
@@ -56,7 +56,7 @@ function Player({
         <Typography variant="body2" color="text.secondary">
         SubSubway Surfers is an endless runner game. As the hooligans run,
          they grab gold coins out of the air while simultaneously dodging collisions with railway. 
-        The goal is to as far as you can, do not be caught by the police. 
+        The goal is to go as far as you can, do not get caught by the police. 
         </Typography>
             </CardContent>
             <CardActions>
