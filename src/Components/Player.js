@@ -27,8 +27,8 @@ function Player({
 
         <Card sx={{ height: '550px', width: '300px', bgcolor: 'warning.main', color: 'warning.contrastText', p: 2 }}>
             <Stack direction="row" spacing={2} alignItems="center" >
-                <Avatar alt="" src={image} /><Chip label="Tap to Play" component="a" href="#basic-chip" variant="outlined"clickable />
-                
+                <Avatar alt="" src={image} /><Chip label="Tap to Play" component="a" href="#basic-chip" variant="outlined" clickable />
+
             </Stack>
 
             <CardMedia
@@ -62,12 +62,12 @@ function Player({
                 </ul>
                 <Text>
 
-                </Text>   
+                </Text>
             </CardContent>
             <Game>
 
             </Game>
-            
+
         </Card>
 
 

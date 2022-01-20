@@ -53,7 +53,7 @@ function App() {
       image: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f0414226-5965-40e9-aebb-ce53b75f96f8/dc51msm-fcfacfd6-aaf7-40ff-9d26-68b11085ea76.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YwNDE0MjI2LTU5NjUtNDBlOS1hZWJiLWNlNTNiNzVmOTZmOFwvZGM1MW1zbS1mY2ZhY2ZkNi1hYWY3LTQwZmYtOWQyNi02OGIxMTA4NWVhNzYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jAqsQ6q2eLNRDDjjVan2O-qJ8ZoEJ78CHdNarKo47RE',
       alt_text: 'Tricky',
       characters: [
-        'Tricky is a character that can be unlocked by purchasing him 30,000 coins.',
+        'Tricky is a character that can be unlocked by purchasing her with 30,000 coins.',
         'Her first outfit, the Camo Outfit, 20 keys.',
         'Her second outfit, the Heart Outfit, cost 15 keys.',
       ]
