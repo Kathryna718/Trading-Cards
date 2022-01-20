@@ -4,9 +4,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-
-
-
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
+import Box from '@mui/material/Box';
+import Chip from '@mui/material/Chip';
 function Player({
     characters,
     title,
@@ -16,17 +17,23 @@ function Player({
     board,
     alt_text,
     image
-}){
+}) {
 
 
     return (
-        <Card>
+
+        <Card sx={{ height: '550px', width: '300px', bgcolor: 'warning.main', color: 'warning.contrastText', p: 2 }}>
+            <Stack direction="row" spacing={2} alignItems="center" >
+                <Avatar alt="" src={image} /><Chip label="Tap to Play" component="a" href="#basic-chip" variant="outlined"clickable />
+                
+            </Stack>
+
             <CardMedia
-        component='img'
-        height='140'
-        image={image}
-        alt={alt_text}
-        />
+                //component='img'
+                height='140'
+                image={image}
+                alt={alt_text}
+            />
             <CardContent>
                 <h4>
                     {title}
@@ -43,31 +50,34 @@ function Player({
                 <p>
                     {board}
                 </p>
-                <ol>
+                <ul>
                     {characters.map(
-                        (character)=> {
+                        (character) => {
                             return <li key={character}>{character}</li>;
                         }
                     )}
-                </ol>
+                </ul>
                 <Typography gutterBottom variant="h5" component="div">
-          Subway Surfer
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        SubSubway Surfers is an endless runner game. As the hooligans run,
-         they grab gold coins out of the air while simultaneously dodging collisions with railway. 
-        The goal is to go as far as you can, do not get caught by the police. 
-        </Typography>
+                    Subway Surfer
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                    SubSubway Surfers is an endless runner game. As the hooligans run,
+                    they grab gold coins out of the air while simultaneously dodging collisions with railway.
+                    The goal is to go as far as you can, do not get caught by the police.
+                </Typography>
+                <Typography component="div" variant="body1">
+                </Typography>
             </CardContent>
             <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
+                <Button size="small ">Unlock</Button>
+                <Button size="small ">View Player</Button>
+            </CardActions>
         </Card>
 
-        
+
     );
 
 }
 
 export default Player;
+
