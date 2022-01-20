@@ -71,7 +71,6 @@ function App() {
     <Grid container spacing={2} alignItems="center"
       justifyContent="center" padding="95px"
     >
-
       {
         players.map((player) => {
           return <Grid item xs={4}>
@@ -101,6 +100,5 @@ function App() {
   );
 }
 
-// this allows other components / files to use this component
 
 export default App;

@@ -8,6 +8,9 @@ import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
+import Game from "./Game.js";
+import Text from "./Text.js";
+
 function Player({
     characters,
     title,
@@ -57,21 +60,14 @@ function Player({
                         }
                     )}
                 </ul>
-                <Typography gutterBottom variant="h5" component="div">
-                    Subway Surfer
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                    SubSubway Surfers is an endless runner game. As the hooligans run,
-                    they grab gold coins out of the air while simultaneously dodging collisions with railway.
-                    The goal is to go as far as you can, do not get caught by the police.
-                </Typography>
-                <Typography component="div" variant="body1">
-                </Typography>
+                <Text>
+
+                </Text>   
             </CardContent>
-            <CardActions>
-                <Button size="small ">Unlock</Button>
-                <Button size="small ">View Player</Button>
-            </CardActions>
+            <Game>
+
+            </Game>
+            
         </Card>
 
 
